@@ -1,0 +1,31 @@
+=============== Nov 5, 2016 (CST) ===============
+18:58:32.814574 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:58:32.814756 db@open opening
+18:58:32.815426 version@stat F·[] S·0B[] Sc·[]
+18:58:32.854889 db@janitor F·2 G·0
+18:58:32.854905 db@open done T·40.143273ms
+19:00:03.600160 db@close closing
+19:00:03.600198 db@close done T·33.939µs
+=============== Nov 5, 2016 (CST) ===============
+19:18:56.367510 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:18:56.367634 version@stat F·[] S·0B[] Sc·[]
+19:18:56.367646 db@open opening
+19:18:56.367712 journal@recovery F·1
+19:18:56.369984 journal@recovery recovering @1
+19:18:56.411654 memdb@flush created L0@2 N·24 S·7KiB "\x06cpu,v7":"\x14mo..int,v2"
+19:18:56.412484 version@stat F·[1] S·7KiB[7KiB] Sc·[0.25]
+19:18:56.412704 db@janitor F·3 G·0
+19:18:56.412721 db@open done T·45.069371ms
+19:22:27.667885 db@close closing
+19:22:27.667941 db@close done T·57.025µs
+=============== Nov 5, 2016 (CST) ===============
+19:22:42.157945 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:22:42.158295 version@stat F·[1] S·7KiB[7KiB] Sc·[0.25]
+19:22:42.158303 db@open opening
+19:22:42.158331 journal@recovery F·1
+19:22:42.158837 journal@recovery recovering @3
+19:22:42.159682 version@stat F·[1] S·7KiB[7KiB] Sc·[0.25]
+19:22:42.159872 db@janitor F·3 G·0
+19:22:42.159889 db@open done T·1.581844ms
+19:22:50.302722 db@close closing
+19:22:50.302746 db@close done T·23.842µs
